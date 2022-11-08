@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/black_dye"
+    },
+    "overrides": [
+      {"predicate": {"custom_model_data":100}, "model": "prsn:cosmetics/cat_ears"},
+      {"predicate": {"custom_model_data":42001}, "model": "prsn:cosmetics/headband"},
+      {"predicate": {"custom_model_data":100001}, "model": "prsn:cosmetics/santa_hat"},
+      {"predicate": {"custom_model_data":100002}, "model": "prsn:cosmetics/santa_hat_back"},
+      {"predicate": {"custom_model_data":100003}, "model": "prsn:cosmetics/wreath"}
+    ]
+  }
