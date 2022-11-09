@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made by Obey#0001",
 	"parent": "bow_black",
 	"textures": {
 		"1": "prsn:cosmetics/bow_black",
@@ -102,7 +102,13 @@
 		"thirdperson_righthand": {
 			"scale": [0.3, 0.3, 0.3]
 		},
+		"thirdperson_lefthand": {
+			"scale": [0.3, 0.3, 0.3]
+		},
 		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"ground": {
@@ -117,13 +123,5 @@
 			"translation": [0, 0.25, 0],
 			"scale": [1.69, 1.69, 1.69]
 		}
-	},
-	"groups": [
-		{
-			"name": "maid_bow",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [0, 1, 2, 3, 4, 5, 6]
-		}
-	]
+	}
 }
