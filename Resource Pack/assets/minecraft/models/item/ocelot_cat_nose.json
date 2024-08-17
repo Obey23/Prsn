@@ -1,0 +1,7 @@
+{
+	"credit": "Made by Obey#0001",
+	"parent": "item/cat_nose",
+	"textures": {
+		"2": "item/ocelot_cat"
+	}
+}

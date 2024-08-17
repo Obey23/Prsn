@@ -1,0 +1,35 @@
+{
+	"credit": "Made by Obey#0001",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/microphone"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [23, 90, 50],
+			"translation": [0, 1.25, 3.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [46, 90, -50],
+			"translation": [0, 1.25, 3.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [-0.75, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [36, 0, -20],
+			"translation": [-0.5, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"head": {
+			"rotation": [-45, 90, 45],
+			"translation": [-6.75, 0.75, 0]
+		}
+	}
+}

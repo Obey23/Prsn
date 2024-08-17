@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/blue_shark",
+	"textures": {
+		"0": "minecraft:item/gray_shark"
+	}
+}

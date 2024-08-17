@@ -1,0 +1,19 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/brown_dye"
+    },
+    "overrides": [
+      {"predicate": {"custom_model_data":150001}, "model": "item/all_black_cat_nose"},
+      {"predicate": {"custom_model_data":150002}, "model": "item/black_cat_nose"},
+      {"predicate": {"custom_model_data":150003}, "model": "item/british_shorthair_cat_nose"},
+      {"predicate": {"custom_model_data":150004}, "model": "item/calico_cat_nose"},
+      {"predicate": {"custom_model_data":150005}, "model": "item/jellie_cat_nose"},
+      {"predicate": {"custom_model_data":150006}, "model": "item/ocelot_cat_nose"},
+      {"predicate": {"custom_model_data":150007}, "model": "item/ragdoll_cat_nose"},
+      {"predicate": {"custom_model_data":150008}, "model": "item/red_cat_nose"},
+      {"predicate": {"custom_model_data":150009}, "model": "item/siamese_cat_nose"},
+      {"predicate": {"custom_model_data":150010}, "model": "item/tabby_cat_nose"},
+      {"predicate": {"custom_model_data":150011}, "model": "item/white_cat_nose"}
+    ]
+  }
