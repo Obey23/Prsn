@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/stick"
+    },
+    "overrides": [
+      {"predicate": {"custom_model_data":42001}, "model": "item/duster"},
+      {"predicate": {"custom_model_data":42002}, "model": "item/microphone"},
+      {"predicate": {"custom_model_data":42003}, "model": "item/blue_shark"},
+      {"predicate": {"custom_model_data":42004}, "model": "item/gray_shark"},
+      {"predicate": {"custom_model_data":42005}, "model": "item/blue_whale"}
+    ]
+}
