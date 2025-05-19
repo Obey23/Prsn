@@ -3,57 +3,57 @@
     "type": "range_dispatch",
     "property": "custom_model_data",
     "fallback": {
-      "type": "model",
+      "type": "minecraft:model",
       "model": "minecraft:item/black_dye"
     },
     "entries": [
       {
         "threshold": 100,
         "model": {
-          "type": "model",
-          "model": "item/cat_ears"
+          "type": "minecraft:model",
+          "model": "minecraft:item/cat_ears"
         }
       },
       {
         "threshold": 101,
         "model": {
-          "type": "model",
-          "model": "item/pink_gamer_headset"
+          "type": "minecraft:model",
+          "model": "minecraft:item/pink_gamer_headset"
         }
       },
       {
         "threshold": 102,
         "model": {
-          "type": "model",
-          "model": "item/rice_hat"
+          "type": "minecraft:model",
+          "model": "minecraft:item/rice_hat"
         }
       },
       {
         "threshold": 42001,
         "model": {
           "type": "model",
-          "model": "item/headband"
+          "model": "minecraft:item/headband"
         }
       },
       {
         "threshold": 100001,
         "model": {
           "type": "model",
-          "model": "item/santa_hat"
+          "model": "minecraft:item/santa_hat"
         }
       },
       {
         "threshold": 100002,
         "model": {
           "type": "model",
-          "model": "item/santa_hat_back"
+          "model": "minecraft:item/santa_hat_back"
         }
       },
       {
         "threshold": 100003,
         "model": {
           "type": "model",
-          "model": "item/wreath"
+          "model": "minecraft:item/wreath"
         }
       }
     ]
