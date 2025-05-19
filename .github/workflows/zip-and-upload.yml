@@ -1,9 +1,10 @@
-name: Zip Resource Pack Folder
+name: Zip Resource Pack
 
 on:
   push:
-    branches: [main]  # Change to your default branch if needed
-  workflow_dispatch:  # Allow manual trigger from GitHub UI
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   zip-resource-pack:
@@ -11,25 +12,15 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Automatically zip resource pack
+      - name: Create ZIP of Resource Pack folder
         run: |
-          mkdir -p output
-          zip -r output/Resource-Pack.zip "Resource Pack"
+          cd "Resource Pack"
+          zip -r ../Prsn.zip ./
 
-      - name: Commit ZIP file to repository
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-          mv output/Resource-Pack.zip ./Prsn.zip
-
-          # Prevent commit loop
-          if [ -n "$(git status --porcelain)" ]; then
-            git add -f Resource-Pack.zip
-            git commit -m "Auto-zipped 'Resource Pack' folder"
-            git push
-          else
-            echo "No changes to commit."
-          fi
+      - name: Upload ZIP as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: Prsn
+          path: Prsn.zip
