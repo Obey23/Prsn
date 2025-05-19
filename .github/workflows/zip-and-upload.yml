@@ -1,0 +1,36 @@
+name: Zip and Upload
+
+on:
+  push:
+    branches: [main]  # or your default branch
+  workflow_dispatch:  # allows manual triggering
+
+jobs:
+  zip-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create ZIP excluding ZIP files
+        run: |
+          mkdir output
+          zip -r output/latest-package.zip . -x '*.zip' -x 'output/*'
+
+      - name: Commit ZIP file
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          
+          # Move zip to root or desired location
+          mv output/latest-package.zip ./Prsn.zip
+
+          # Avoid commit loop
+          if [ -n "$(git status --porcelain)" ]; then
+            git add Prsn.zip
+            git commit -m "Auto-generated ZIP package"
+            git push
+          else
+            echo "No changes to commit."
+          fi
