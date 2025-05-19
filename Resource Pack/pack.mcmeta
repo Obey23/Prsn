@@ -1,6 +1,7 @@
 {
    "pack":{
-      "pack_format":9,
-      "description":"Cool textures for coolest server"
+      "pack_format":8,
+      "supported_formats":[4,60],
+      "description":"§bPrsn Network: Prison Server Resources"
    }
 }
