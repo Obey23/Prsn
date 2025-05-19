@@ -1,0 +1,89 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/brown_dye"
+    },
+    "entries": [
+      {
+        "threshold": 150001,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/all_black_cat_nose"
+        }
+      },
+      {
+        "threshold": 150002,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/black_cat_nose"
+        }
+      },
+      {
+        "threshold": 150003,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/british_shorthair_cat_nose"
+        }
+      },
+      {
+        "threshold": 150004,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/calico_cat_nose"
+        }
+      },
+      {
+        "threshold": 150005,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/jellie_cat_nose"
+        }
+      },
+      {
+        "threshold": 150006,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/ocelot_cat_nose"
+        }
+      },
+      {
+        "threshold": 150007,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/ragdoll_cat_nose"
+        }
+      },
+      {
+        "threshold": 150008,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/red_cat_nose"
+        }
+      },
+      {
+        "threshold": 150009,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/siamese_cat_nose"
+        }
+      },
+      {
+        "threshold": 150010,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/tabby_cat_nose"
+        }
+      },
+      {
+        "threshold": 150011,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/white_cat_nose"
+        }
+      }
+    ]
+  }
+}

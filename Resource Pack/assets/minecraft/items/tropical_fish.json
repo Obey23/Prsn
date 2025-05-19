@@ -4,56 +4,56 @@
     "property": "custom_model_data",
     "fallback": {
       "type": "model",
-      "model": "minecraft:item/black_dye"
+      "model": "minecraft:item/tropical_fish"
     },
     "entries": [
       {
-        "threshold": 100,
+        "threshold": 1,
         "model": {
           "type": "model",
-          "model": "minecraft:item/cat_ears"
+          "model": "minecraft:item/tropical_fish_1"
         }
       },
       {
-        "threshold": 101,
+        "threshold": 2,
         "model": {
           "type": "model",
-          "model": "minecraft:item/pink_gamer_headset"
+          "model": "minecraft:item/tropical_fish_2"
         }
       },
       {
-        "threshold": 102,
+        "threshold": 3,
         "model": {
           "type": "model",
-          "model": "minecraft:item/rice_hat"
+          "model": "minecraft:item/tropical_fish_3"
         }
       },
       {
-        "threshold": 42001,
+        "threshold": 4,
         "model": {
           "type": "model",
-          "model": "minecraft:item/headband"
+          "model": "minecraft:item/tropical_fish_4"
         }
       },
       {
-        "threshold": 100001,
+        "threshold": 5,
         "model": {
           "type": "model",
-          "model": "minecraft:item/santa_hat"
+          "model": "minecraft:item/tropical_fish_5"
         }
       },
       {
-        "threshold": 100002,
+        "threshold": 6,
         "model": {
           "type": "model",
-          "model": "minecraft:item/santa_hat_back"
+          "model": "minecraft:item/tropical_fish_6"
         }
       },
       {
-        "threshold": 100003,
+        "threshold": 7,
         "model": {
           "type": "model",
-          "model": "minecraft:item/wreath"
+          "model": "minecraft:item/tropical_fish_7"
         }
       }
     ]

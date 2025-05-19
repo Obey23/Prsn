@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/scute"
+    },
+    "entries": [
+      {
+        "threshold": 42001,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/bow_white"
+        }
+      },
+      {
+        "threshold": 42002,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/bow_black"
+        }
+      }
+    ]
+  }
+}

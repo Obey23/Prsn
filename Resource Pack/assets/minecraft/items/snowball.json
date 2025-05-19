@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/snowball"
+    },
+    "entries": [
+      {
+        "threshold": 69,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/minebomb"
+        }
+      },
+      {
+        "threshold": 1001,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/scrappy_focus"
+        }
+      },
+      {
+        "threshold": 1002,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/moderate_focus"
+        }
+      },
+      {
+        "threshold": 1003,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/omega_focus"
+        }
+      }
+    ]
+  }
+}

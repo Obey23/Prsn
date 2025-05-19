@@ -1,0 +1,208 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/stick"
+    },
+    "entries": [
+      {
+        "threshold": 42001,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/duster"
+        }
+      },
+      {
+        "threshold": 42002,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/microphone"
+        }
+      },
+      {
+        "threshold": 42003,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/blue_shark"
+        }
+      },
+      {
+        "threshold": 42004,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/gray_shark"
+        }
+      },
+      {
+        "threshold": 42005,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/blue_whale"
+        }
+      },
+      {
+        "threshold": 92001,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/worm"
+        }
+      },
+      {
+        "threshold": 100001,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_barrier"
+        }
+      },
+      {
+        "threshold": 100002,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_bush"
+        }
+      },
+      {
+        "threshold": 100003,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_card_and_token"
+        }
+      },
+      {
+        "threshold": 100004,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_chair_bar_brown"
+        }
+      },
+      {
+        "threshold": 100005,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_chair_bar_red"
+        }
+      },
+      {
+        "threshold": 100006,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_chair_brown"
+        }
+      },
+      {
+        "threshold": 100007,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_chips"
+        }
+      },
+      {
+        "threshold": 100008,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_game_bigwin"
+        }
+      },
+      {
+        "threshold": 100009,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_game_slot"
+        }
+      },
+      {
+        "threshold": 100010,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_monitor"
+        }
+      },
+      {
+        "threshold": 100011,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_pot_tree"
+        }
+      },
+      {
+        "threshold": 100012,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_sofa_red"
+        }
+      },
+      {
+        "threshold": 100013,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_sofa_red_no_rest"
+        }
+      },
+      {
+        "threshold": 100014,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_sofa_red_single"
+        }
+      },
+      {
+        "threshold": 100015,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_table_billiards"
+        }
+      },
+      {
+        "threshold": 100016,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_table_billiards_stick_stand"
+        }
+      },
+      {
+        "threshold": 100017,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_table_blackjack"
+        }
+      },
+      {
+        "threshold": 100018,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_table_blank"
+        }
+      },
+      {
+        "threshold": 100019,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_table_craps"
+        }
+      },
+      {
+        "threshold": 100020,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_table_roulette"
+        }
+      },
+      {
+        "threshold": 100021,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_table_wood"
+        }
+      },
+      {
+        "threshold": 100022,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/casino_vending_machine"
+        }
+      }
+    ]
+  }
+}

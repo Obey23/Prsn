@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/iron_nugget"
+    },
+    "entries": [
+      {
+        "threshold": 92001,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/hook_silver"
+        }
+      },
+      {
+        "threshold": 92002,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/hook_duo"
+        }
+      },
+      {
+        "threshold": 92003,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/hook_gold_duo"
+        }
+      },
+      {
+        "threshold": 92004,
+        "model": {
+          "type": "model",
+          "model": "minecraft:item/hook_magnet"
+        }
+      }
+    ]
+  }
+}
