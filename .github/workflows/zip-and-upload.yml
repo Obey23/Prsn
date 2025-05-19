@@ -17,7 +17,7 @@ jobs:
       - name: Zip Resource Pack into Prsn.zip
         run: |
           cd "Resource Pack"
-          zip -r ../Prsn.zip . -x "*/\.*"
+          find . -type f -print | zip -@ ../Prsn.zip
 
       - name: Commit and push Prsn.zip
         run: |
