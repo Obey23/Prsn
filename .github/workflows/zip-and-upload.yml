@@ -16,8 +16,7 @@ jobs:
 
       - name: Zip Resource Pack into Prsn.zip
         run: |
-          cd "Resource Pack"
-          zip -r ../Prsn.zip ./*
+          zip -r Prsn.zip Resource\ Pack/*
 
       - name: Commit and push Prsn.zip
         run: |
