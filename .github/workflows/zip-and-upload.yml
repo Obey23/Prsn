@@ -1,35 +1,34 @@
-name: Zip and Upload
+name: Zip Resource Pack Folder
 
 on:
   push:
-    branches: [main]  # or your default branch
-  workflow_dispatch:  # allows manual triggering
+    branches: [main]  # Change to your default branch if needed
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
 
 jobs:
-  zip-and-upload:
+  zip-resource-pack:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create ZIP excluding ZIP files
+      - name: Automatically zip resource pack
         run: |
-          mkdir output
-          zip -r output/latest-package.zip "Resource Pack"
+          mkdir -p output
+          zip -r output/Resource-Pack.zip "Resource Pack"
 
-      - name: Commit ZIP file
+      - name: Commit ZIP file to repository
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          
-          # Move zip to root or desired location
-          mv output/latest-package.zip ./Prsn.zip
 
-          # Avoid commit loop
+          mv output/Resource-Pack.zip ./Prsn.zip
+
+          # Prevent commit loop
           if [ -n "$(git status --porcelain)" ]; then
-            git add Prsn.zip
-            git commit -m "Auto-generated ZIP package"
+            git add -f Resource-Pack.zip
+            git commit -m "Auto-zipped 'Resource Pack' folder"
             git push
           else
             echo "No changes to commit."
