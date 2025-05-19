@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4.2.2
 
       - name: Create ZIP of Resource Pack folder
         run: |
@@ -20,7 +20,7 @@ jobs:
           zip -r ../Prsn.zip ./
 
       - name: Upload ZIP as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.6.2
         with:
           name: Prsn
           path: Prsn.zip
