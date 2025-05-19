@@ -1,0 +1,61 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/black_dye"
+    },
+    "entries": [
+      {
+        "threshold": 100,
+        "model": {
+          "type": "model",
+          "model": "item/cat_ears"
+        }
+      },
+      {
+        "threshold": 101,
+        "model": {
+          "type": "model",
+          "model": "item/pink_gamer_headset"
+        }
+      },
+      {
+        "threshold": 102,
+        "model": {
+          "type": "model",
+          "model": "item/rice_hat"
+        }
+      },
+      {
+        "threshold": 42001,
+        "model": {
+          "type": "model",
+          "model": "item/headband"
+        }
+      },
+      {
+        "threshold": 100001,
+        "model": {
+          "type": "model",
+          "model": "item/santa_hat"
+        }
+      },
+      {
+        "threshold": 100002,
+        "model": {
+          "type": "model",
+          "model": "item/santa_hat_back"
+        }
+      },
+      {
+        "threshold": 100003,
+        "model": {
+          "type": "model",
+          "model": "item/wreath"
+        }
+      }
+    ]
+  }
+}

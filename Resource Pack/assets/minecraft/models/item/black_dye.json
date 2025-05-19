@@ -5,6 +5,8 @@
     },
     "overrides": [
       {"predicate": {"custom_model_data":100}, "model": "item/cat_ears"},
+      {"predicate": {"custom_model_data":101}, "model": "item/pink_gamer_headset"},
+      {"predicate": {"custom_model_data":102}, "model": "item/rice_hat"},
       {"predicate": {"custom_model_data":42001}, "model": "item/headband"},
       {"predicate": {"custom_model_data":100001}, "model": "item/santa_hat"},
       {"predicate": {"custom_model_data":100002}, "model": "item/santa_hat_back"},
