@@ -1,7 +1,6 @@
 {
    "pack":{
       "pack_format":9,
-      "supported_formats":[9,60]
       "description":"Cool textures for coolest server"
    }
 }
