@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_nugget"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data":92001}, "model": "item/hook_silver"},
+    {"predicate": {"custom_model_data":92002}, "model": "item/hook_duo"},
+    {"predicate": {"custom_model_data":92003}, "model": "item/hook_gold_duo"},
+    {"predicate": {"custom_model_data":92004}, "model": "item/hook_magnet"}
+  ]
+}
