@@ -16,7 +16,7 @@ jobs:
       - name: Create ZIP excluding ZIP files
         run: |
           mkdir output
-          zip -r output/latest-package.zip . -x '*.zip' -x 'output/*'
+          zip -r output/latest-package.zip "Resource Pack"
 
       - name: Commit ZIP file
         run: |
