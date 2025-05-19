@@ -23,7 +23,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add ../Prsn.zip
+          git add ./Prsn.zip
           git commit -m "Update Prsn.zip"
           git push
         continue-on-error: true
